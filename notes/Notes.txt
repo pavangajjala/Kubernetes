@@ -20,3 +20,18 @@ Kubernetes is widely used for several key reasons:
 
 These features collectively address many challenges in application management and container orchestration, making Kubernetes a preferred choice for modern application deployment.
 
+B -> why can't we get by with docker?
+
+Docker is an excellent tool for managing individual containers and developing smaller applications, but it has limitations when it comes to deploying production workloads at scale. Here are some key reasons why Kubernetes is preferred over just using Docker:
+
+1. Container Scheduling: With Docker, container scheduling must be done manually, which can be time-consuming and prone to errors. Kubernetes automates this process, allowing for efficient distribution of containers across various nodes.
+
+2. Scalability: Kubernetes supports easy scaling of applications through its automated orchestration, while Docker alone lacks built-in functionality to handle larger-scale deployments.
+
+3. High Availability: Kubernetes ensures that your application remains available by automatically restarting failed containers and distributing loads to maintain performance. Docker does not provide built-in redundancy or recovery options to the same extent.
+
+4. Management of Complex Applications: Kubernetes is designed to handle complex applications consisting of multiple interdependent services, which can be challenging to manage with Docker alone.
+
+5. Declarative Configuration: Kubernetes uses a declarative approach to define application states, which helps in managing changes and updates more reliably compared to Docker's imperative approach.
+
+In summary, while Docker is great for simple tasks and development environments, Kubernetes is necessary for managing complex production systems where automation, scalability, and reliability are crucial.
