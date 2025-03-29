@@ -20,4 +20,3 @@ Kubernetes is widely used for several key reasons:
 
 These features collectively address many challenges in application management and container orchestration, making Kubernetes a preferred choice for modern application deployment.
 
-B -> 
